@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --white-color:#ffff;
+    --lightgreen-color: #99DA2D;
+    --green-color: #7BC61C;
+    --lightblue-color: #318EFB;
+    --seablue-color: #3A6EB2;
+    --blue-color: #3168F9;
+    --darkblue-color: #15174B;
+    --black-color: #0000;
+    --purple-color: #B4B6ED;
+    --bluegradient-color: linear-gradient(to bottom right, #318EFB, #1845BB);
+    --big-font: 6rem;
+    --medium-font: 4rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 18%;
+    transition: ease .40s;
+    background-color: var(--darkblue-color);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: var(--white-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover{
+    color: var()
+}
+
+.navbar li.button{
+    margin-left: 20px;
+    border-radius: 20px;
+    background: var(--bluegradient-color);
+    width: 130px;
+    height: 30px;
+    text-align: center;
+}
+
+#menu-icon{
+    color: var(--white-color);
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+section{
+    padding: 100px 18%;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    color: var(--white-color);
+}
+
+.home-text h1{
+    font-size: 64px;
+    line-height: 1.2;
+    color: var(--white-font);
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.home-text p{
+    font-size: 24px;
+    font-weight: 400px;
+    margin-bottom: 40px;
+}
+
+.home-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    color: var(--white-color);
+    background: var(--bluegradient-color);
+    border-radius: 12px;
+    transition: ease .40s;
+}
+
+.home-btn:hover{
+    transform: scale(1.05);
+}
+
+header.sticky{
+    padding: 5px 18%
+}
+
+.text h2{
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.row-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 2rem;
+    margin-top: 3em;
+}
+
+.text-poli{
+   align-items: center;
+   text-align: center; 
+}
+
+.container-box{
+    background: var(--white-color);
+    border: 1px solid #f0eded;
+    padding: 20px 15px;
+    border-radius: 8px;
+    transition: all 1s ease 0s;
+}
+
+.container-box:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-box h5{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.polibtn:hover{
+    cursor: pointer;
+}
+
+.btnmorepoli{
+    align-items: center;
+        text-align: center; 
+}
+
+.morepoli-btn{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 15px 30px;
+    color: var(--bkack-color);
+    background: var(--white-color);
+    border-radius: 24px;
+    border: 1px solid #f0eded;
+    transition: ease .40s;
+}
+
+.morepoli-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact{
+    background: var(--bluegradient-color);
+}
+
+.main{
+    display: flex;
+}
+
+.footer{
+    padding: 15px 0;
+}
+
+.list{
+    width: 25%;
+}
+
+.list h4{
+    font-size: 20px;
+    color: var(--white-color);
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.list ul li{
+    margin-bottom: 16px;
+}
+
+.list ul li a{
+    color: var(--white-color);
+    display: block;
+    transition: .3s;
+}
+
+.list ul li a:hover{
+    color: var(--white-color);
+    transform: translateX(14px);
+}
+

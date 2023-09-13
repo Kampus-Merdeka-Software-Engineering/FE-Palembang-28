@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <!--icon and title-->
+    <title>HealthAppoint</title>
+    <link rel="icon" href="/img/iconheatthappoint.png" type="image/x-icon">
+
+    <!--css link-->
+    <link rel="stylesheet" href="/css/styleform.css">
+
+    <!--icon link-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+        <div class="title">
+            <p>Form Keluhan Pasien</p>
+        </div>
+
+        <form action="#">
+            <div class="user_details">
+                <div class="input_box">
+                    <label for="name">Nama Form</label>
+                    <input type="text" id="name" placeholder="Form Poliklinik" required>
+                </div>
+                <div class="input_box">
+                    <label for="name">Nama Dokter</label>
+                    <input type="text" id="name" placeholder="Dokter" required>
+                </div>
+                <div class="input_box">
+                    <label for="name">Jenis Kelamin</label>
+                    <select name="" id="">
+                        <option value="perempuan">Perempuan</option>
+                        <option value="laki-laki">Laki-Laki</option>
+                    </select>
+                </div>
+                <div class="input_box">
+                    <label for="email">Waktu</label>
+                    <select name="" id="">
+                        <option value="0">10.00 AM</option>
+                        <option value="1">12.00 AM</option>
+                        <option value="2">14.00 AM</option>
+                        <option value="3">16.00 AM</option>
+                        <option value="4">18.00 AM</option>
+                    </select>
+                </div>
+                <div class="input_box">
+                    <label for="phone">Nama Lengkap</label>
+                    <input type="text" id="phone" placeholder="Masukan Nama Kamu" required>
+                </div>
+                <div class="input_box">
+                    <label for="pass">Tanggal Lahir</label>
+                    <input type="date" id="pass" placeholder="" required>
+                </div>
+                <div class="input_box">
+                    <label for="confirmPass">Kartu Identitas</label>
+                    <input type="text" id="confirmPass" placeholder="Kartu Identitas" required>
+                </div>
+                <div class="input_box">
+                    <label for="confirmPass">Keluhan</label>
+                    <input type="text" id="confirmPass" placeholder="Keluhan" required>
+                </div>
+            </div>
+            <div class="reg_btn">
+                <input type="submit" value="Kirim">
+            </div>
+        </form>
+    </div>
+    <script src="/js/script.js" defer></script>
+</body>
+</html>
