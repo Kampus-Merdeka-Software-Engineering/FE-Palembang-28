@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E8E8E8;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 18%;
+    transition: ease .40s;
+    background-color: #15174b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.1 rem;
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: white
+}
+.active{
+    background-color: #B4B6ED;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navigation>li>a:hover {
+    text-decoration: underline;
+    color: #B4B6ED;
+}
+.active:hover {
+    color: black !important;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #E8E8E8;
+    padding: 20px;
+}
+.specialties-heading h2{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    font-size: 24px;
+}
+.specialties-heading h3 {
+    text-align: left;
+    font-size: 20px;
+}
+.specialties-heading h4 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: grey;
+}
+.specialties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.specialties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.specialty {
+    text-align: center;
+    margin: 20px 0;
+    flex-basis: calc(20% - 20px); /* Lebar maksimum untuk lima kolom */
+    background-color: #E8E8E8;
+    border: 1px solid rgb(205, 198, 198);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.specialty img {
+    max-width: 70px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    display: block;
+}
+
+.specialty h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.specialty-name {
+    background-color: #E8E8E8;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: absolute;
+    width: 80%;
+    bottom: 10px;
+    left: 50%;
+    font-size: 10px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+.specialty-name:hover {
+    background-color: #D9D6D6;
+}
