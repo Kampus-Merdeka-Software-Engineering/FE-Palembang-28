@@ -42,7 +42,7 @@ header{
     text-decoration: underline;
     color: white
 }
-.active{
+.nama{
     background-color: #B4B6ED;
     color: black;
     padding: 5px;
@@ -51,9 +51,6 @@ header{
 .navigation>li>a:hover {
     text-decoration: underline;
     color: #B4B6ED;
-}
-.active:hover {
-    color: black !important;
 }
 .container {
     max-width: 1000px;
