@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E8E8E8;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 18%;
+    transition: ease .40s;
+    background-color: #15174b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.1 rem;
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: white
+}
+.active{
+    background-color: #B4B6ED;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navigation>li>a:hover {
+    text-decoration: underline;
+    color: #B4B6ED;
+}
+.active:hover {
+    color: black !important;
+}
+.spesialties-heading {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 0;
+}
+.spesialties-heading h2 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+.search-bar {
+    margin-bottom: 10px;
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.specialty-list {
+    list-style: none;
+    padding: 0;
+}
+
+.specialty-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #E8E8E8;
+    border: 1px solid #b9b4b4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 80%;
+    float: right;
+}
+
+.specialty-list li img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 30px;
+    flex: center;
+}
+
+.specialty-list li .specialty-info {
+    flex-grow: 1;
+}
+
+.specialty-list li h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.specialty-list li p {
+    font-size: 15px;
+}
+
+.view-doctor-button {
+    background-color: #15174b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+.view-doctor-button:hover {
+    text-decoration: underline;
+    color: white !important;
+}
