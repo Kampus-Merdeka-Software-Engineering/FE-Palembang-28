@@ -73,6 +73,23 @@ header{
     font-size: 15px;
     color: grey;
 }
+.view-all-button {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.view-all-button button {
+    padding: 10px 20px;
+    background-color: #15174b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-all-button button:hover {
+    background-color: #0056b3;
+}
 .specialties {
     display: flex;
     flex-wrap: wrap;
