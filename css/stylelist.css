@@ -39,7 +39,7 @@ header{
 }
 
 .navbar a:hover{
-    color: white
+  color: white
 }
 .nama{
     background-color: #B4B6ED;
@@ -48,67 +48,40 @@ header{
     border-radius: 10px;
 }
 .navigation>li>a:hover {
-    text-decoration: underline;
-    color: #B4B6ED;
+  color: #B4B6ED;
 }
+
 .container {
   max-width: 100%;
-  max-height: 100%;
-  margin-left: 50px;
-  margin-top: 110px;
+  margin-top: 150px;
   background-color: #E8E8E8;
   padding: 20px;
+}
+
+.appointment {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.left {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.left img {
-  max-width: 100%;
-  height: auto;
-  margin-right: 50px;
-  margin-top: 50px;
-}
-
-.right {
-  flex: 2;
-}
-
-.doctor-name {
-  font-size: 24px;
+.speciality {
+  font-size: 18px;
   font-weight: bold;
-  margin: 50px auto;
 }
 
-.alumni-profile {
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-.alumni-profile p {
-  margin-right: 50px;
-  text-align: justify;
-}
-
-.next-button {
-  text-align: right;
-  margin-top: 20px;
-  margin-right: 80px;
-}
-
-.next-button button {
+.detail-button {
   padding: 10px 20px;
-  background-color: #15174B;
+  background-color: #15174b;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.next-button button:hover {
+.detail-button:hover {
   background-color: #0056b3;
 }
