@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E8E8E8;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 18%;
+    transition: ease .40s;
+    background-color: #15174b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.1 rem;
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover{
+  color: white
+}
+.nama{
+    background-color: #B4B6ED;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navigation>li>a:hover {
+  color: #B4B6ED;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 150px;
+  background-color: #E8E8E8;
+  padding: 20px;
+}
+
+.appointment {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.speciality {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.detail-button {
+  padding: 10px 20px;
+  background-color: #15174b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detail-button:hover {
+  background-color: #0056b3;
+}
