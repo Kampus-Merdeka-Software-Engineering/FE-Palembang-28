@@ -139,6 +139,3 @@ header{
     cursor: pointer;
     transform: translateX(-50%);
 }
-.specialty-name:hover {
-    background-color: #D9D6D6;
-}
