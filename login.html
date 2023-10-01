@@ -29,10 +29,12 @@
             <header>Login</header>
         </div>
         <div class="input-box">
-            <input type="text" class="input-field" placeholder="Email" autocomplete="off" required>
+            <input type="text" class="input-field" id="username" name="username" placeholder="Username" autocomplete="off" required>
+            <div class="error" id="usernameError"></div>  
         </div>
         <div class="input-box">
-            <input type="password" class="input-field" placeholder="Password" autocomplete="off" required>
+            <input type="password" class="input-field" id="password" name="password" placeholder="Password" autocomplete="off" required>
+            <div class="error" id="passwordError"></div>
         </div>
         <div class="forgot">
             <section>
@@ -44,9 +46,11 @@
             </section>
         </div>
         <div class="input-submit">
-            <button class="submit-btn" id="submit"></button>
+            <button class="submit-btn" id="submit" type="submit"></button>
             <label for="submit">Sign In</label>
         </div>
     </div>
+
+    <script src="/js/validation.js" defer></script>
 </body>
 </html>
