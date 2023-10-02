@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E8E8E8;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 18%;
+    transition: ease .40s;
+    background-color: #15174b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.1 rem;
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: white
+}
+.nama{
+    background-color: #B4B6ED;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navigation>li>a:hover {
+    text-decoration: underline;
+    color: #B4B6ED;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #15174b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.spesialis-section {
+    display: flex;
+    gap: 20px;
+}
+
+.spesialis-buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.spesialis-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.spesialis-button:hover {
+    background-color: #15174b;
+    color: white;
+}
+
+.spesialis-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.spesialis-description {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.spesialis-description h1 {
+    font-size: 24px;
+}
+.spesialis-description img {
+    width: 80px;
+}
+.spesialis-description p {
+    font-size: 16px;
+}
+
+.dokter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dokter-card {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dokter-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.dokter-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.dokter-spesialis {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.dokter-experience {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.lihat-button {
+    display: inline-block;
+    background-color: #007BFF;
+    margin-top: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.lihat-button:hover {
+    background-color: #0056b3;
+}
