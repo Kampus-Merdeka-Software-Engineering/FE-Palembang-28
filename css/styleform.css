@@ -59,6 +59,44 @@ body{
     margin: 0 0 12px 0;
 }
 
+#jenis_kelamin {
+    width: 640px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f6f8fa;
+    font-family: 'Poppins', sans-serif;
+    transition: all 120ms ease-out 0s;
+}
+
+#waktu_keluhan {
+    width: 640px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f6f8fa;
+    font-family: 'Poppins', sans-serif;
+    transition: all 120ms ease-out 0s;
+}
+
+.user_details .input_box.{
+    width: calc(100% / 2 - 20px);
+    margin: 0 0 12px 0;
+}
+
+#keluhan {
+  height: 300px;
+}
+
+
 .input_box label{
     font-weight: 500;
     margin-bottom: 5px;
