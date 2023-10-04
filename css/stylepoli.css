@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #E8E8E8;
+    background-color: #fff;
 }
 
 header{
@@ -84,13 +84,12 @@ header{
 .specialty-list li {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #E8E8E8;
+    background-color: #fff;
     border: 1px solid #b9b4b4;
     border-radius: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 80%;
     float: right;
 }
 

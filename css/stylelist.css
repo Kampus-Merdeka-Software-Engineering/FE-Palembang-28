@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #E8E8E8;
+    background-color: #fff;
 }
 
 header{
@@ -56,7 +56,7 @@ header{
 .container {
   max-width: 100%;
   margin-top: 150px;
-  background-color: #E8E8E8;
+  background-color: #fff;
   padding: 20px;
 }
 
