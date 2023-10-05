@@ -11,7 +11,7 @@ document.getElementById("submit").addEventListener("click", function (event) {
   passwordError.textContent = "";
 
   // Simulated validation
-  if (username !== "demo" || password !== "password") {
+  if (username !== "revou" || password !== "password") {
     passwordError.textContent = "Invalid username or password.";
     return;
   }

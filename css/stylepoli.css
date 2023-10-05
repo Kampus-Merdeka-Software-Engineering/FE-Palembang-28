@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #E8E8E8;
+    background-color: #fff;
 }
 
 header{
@@ -82,13 +84,12 @@ header{
 .specialty-list li {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #E8E8E8;
+    background-color: #fff;
     border: 1px solid #b9b4b4;
     border-radius: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 80%;
     float: right;
 }
 

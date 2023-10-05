@@ -16,3 +16,11 @@ function redirectToformjanjimuPage() {
 function redirectTorincidokterPage() {
   window.location.href = "rincidokter.html";
 }
+
+function redirectTospesialisasidokterPage() {
+  window.location.href = "rincipoliklinik.html";
+}
+
+function redirectTolihatdokterPage() {
+  window.location.href = "lihatdokter.html";
+}
