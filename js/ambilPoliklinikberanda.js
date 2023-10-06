@@ -18,7 +18,7 @@ const ambilPoli = async() => {
                 <div class="polibtn">
                     <a href="#" class="poli-btn">Lihat Detail</a>
                 </div>
-            </div>
+            </div>  
         `;
           let el = parser.parseFromString(productStr, h);
           let root = document.querySelector("div.row-items");

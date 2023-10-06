@@ -10,7 +10,7 @@ function redirectToLoginPage() {
 }
 
 function redirectToformjanjimuPage() {
-  window.location.href = "formjanjimu.html";
+  window.location.href = "addformjanji.html";
 }
 
 function redirectTorincidokterPage() {
@@ -24,3 +24,4 @@ function redirectTospesialisasidokterPage() {
 function redirectTolihatdokterPage() {
   window.location.href = "lihatdokter.html";
 }
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <!--icon and title-->
+    <title>HealthAppoint</title>
+    <link rel="icon" href="img/iconheatthappoint.png" type="image/x-icon">
+
+    <!--css link-->
+    <link rel="stylesheet" href="css/stylelihatdokter.css">
+
+</head>
+<body>
+    <header>
+        <a href="#beranda.html" class="logo"><img src="img/logowithtext.png" alt="" style="width: 60%;"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="beranda.html">Home</a></li>
+            <li><a href="fiturpoli.html">Poliklinik</a></li>
+            <li><a href="listjanji.html">JanjiMu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Cari dokter...">
+            <button class="search-button">Cari</button>
+        </div>
+
+        <div class="spesialis-section">
+            <div class="spesialis-buttons">
+                <!-- Tombol-tombol spesialis -->
+                <button class="spesialis-button" onclick="redirectTopolikandungan()">Sp. Kandungan & Kebidanan</button>
+                <button class="spesialis-button" onclick="redirectTopolikulit()">Sp. Kulit & Kelamin</button>
+                <button class="spesialis-button" onclick="redirectTopolitht()">Sp. THT</button>
+                <button class="spesialis-button" onclick="redirectTopolijiwa()">Sp. Jiwa</button>
+                <button class="spesialis-button" onclick="redirectTopolipenyakitdalam()">Sp. Penyakit Dalam</button>
+                <button class="spesialis-button" onclick="redirectTopolianak()">Sp. Anak</button>
+                <button class="spesialis-button" onclick="redirectTopolimata()">Sp. Mata</button>
+                <button class="spesialis-button" onclick="redirectTopoligigi()">Dokter Gigi</button>
+                <button class="spesialis-button" onclick="redirectTopoliumum()">Dokter Umum</button>
+                <!-- Tambahkan lebih banyak tombol spesialis sesuai kebutuhan -->
+            </div>
+
+            <div class="spesialis-info">
+                <div class="spesialis-description">
+                    <!-- Deskripsi spesialis -->
+                    <div>
+                        <h1>Spesialis Kandungan</h1>
+                        <img src="sp kandungan 2.png" alt="kandungan">
+                        <p> Spesialis Kandungan atau biasa disebut ob-gyn (Obstetrics Gynecology) adalah 
+                            dokter yang berfokus pada perawatan dan pemeliharaan kesehatan ibu hamil dan janin selama masa 
+                            kehamilan hingga persalinan, serta berfokus pada kesehatan sistem reproduksi wanita.</p>
+                    </div>
+                </div>
+
+                <div class="dokter-list">
+                    <!-- Kartu-kartu dokter -->
+                    <div class="dokter-card">
+                        <img src="dokter 1.png" alt="Dokter 1">
+                        <div class="dokter-name">dr. abc</div>
+                        <div class="dokter-spesialis">Spesialis Kandungan</div>
+                        <div class="dokter-experience">Pengalaman Kerja : 8 tahun</div>
+                        <a href="#" class="lihat-button">Lihat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/script.js" defer></script>
+<script src="js/amblilLihatpoli.js" defer></script>
+</html>
