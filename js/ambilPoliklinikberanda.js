@@ -16,9 +16,9 @@ const ambilPoli = async() => {
                 <h5>${polikliniks.nama_poliklinik}</h5>
                 <p id="deskripsi_poli">${polikliniks.deskripsi_poliklinik}</p>
                 <div class="polibtn">
-                    <a href="#" class="poli-btn">Lihat Detail</a>
+                    <a href="lihatpoliklinik.html?id=${polikliniks.id_poliklinik}" class="poli-btn">Lihat Detail</a>
                 </div>
-            </div>  
+            </div>  s
         `;
           let el = parser.parseFromString(productStr, h);
           let root = document.querySelector("div.row-items");

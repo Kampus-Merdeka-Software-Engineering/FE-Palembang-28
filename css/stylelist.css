@@ -87,3 +87,18 @@ header{
 .detail-button:hover {
   background-color: #0056b3;
 }
+
+.no-data-image {
+  display: block;
+  align-item: center;
+  text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin: auto;
+}
+
+.container.has-data .no-data-image {
+  display: block;
+}

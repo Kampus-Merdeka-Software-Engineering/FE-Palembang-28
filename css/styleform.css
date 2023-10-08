@@ -1,62 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #f6f8fa;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.container{
+.container {
     max-width: 700px;
     width: 100%;
     background: #ffffff;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
-                0px 5px 12px -2px rgba(0, 0, 0, 0.1),
-                0px 18px 36px -6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 5px 12px -2px rgba(0, 0, 0, 0.1), 0px 18px 36px -6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 10px;
 }
 
-.container .title{
+.container .title {
     padding: 25px;
     background: #f6f8fa;
 }
 
-.container .title p{
+.container .title p {
     font-size: 25px;
     font-weight: 500;
     position: relative;
 }
 
-.container .title p::before{
+.container .title p::before {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 30px;
     height: 3px;
-    background: linear-gradient(to bottom right, #318EFB, #1845BB);
+    background: linear-gradient(to bottom right, #318efb, #1845bb);
 }
 
-.user_details{
+.user_details {
     flex-wrap: wrap;
     gap: 20px;
     padding: 25px;
 }
 
-.user_details .input_box{
+.user_details .input_box {
     width: calc(100% / 2 - 20px);
     margin: 0 0 12px 0;
+}
+
+#nama_dokter {
+    width: 640px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f6f8fa;
+    font-family: "Poppins", sans-serif;
+    transition: all 120ms ease-out 0s;
 }
 
 #jenis_kelamin {
@@ -69,7 +81,7 @@ body{
     padding-left: 15px;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
     background-color: #f6f8fa;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: all 120ms ease-out 0s;
 }
 
@@ -83,32 +95,31 @@ body{
     padding-left: 15px;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
     background-color: #f6f8fa;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: all 120ms ease-out 0s;
 }
 
-.user_details .input_box.{
+.user_details .input_box {
     width: calc(100% / 2 - 20px);
     margin: 0 0 12px 0;
 }
 
 #keluhan {
-  height: 300px;
+    height: 300px;
 }
 
-
-.input_box label{
+.input_box label {
     font-weight: 500;
     margin-bottom: 5px;
     display: block;
 }
 
-.input_box label::after{
+.input_box label::after {
     content: " *";
     color: red;
 }
 
-.input_box input{
+.input_box input {
     width: 640px;
     height: 45px;
     border: none;
@@ -118,44 +129,43 @@ body{
     padding-left: 15px;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
     background-color: #f6f8fa;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: all 120ms ease-out 0s;
 }
 
-
 .input_box input:focus,
-.input_box input:valid{
-    box-shadow: 0px 0px 0px 2px #AC8ECE;
+.input_box input:valid {
+    box-shadow: 0px 0px 0px 2px #ac8ece;
 }
 
-form .gender{
+form .gender {
     padding: 0px 25px;
 }
 
-.gender .gender_title{
+.gender .gender_title {
     font-size: 20px;
     font-weight: 500;
 }
 
-.gender .gender_title{
+.gender .gender_title {
     font-size: 20px;
     font-weight: 500;
 }
 
-.gender .category{
+.gender .category {
     width: 80%;
     display: flex;
     justify-content: space-between;
     margin: 5px 0;
 }
 
-.gender .category label{
+.gender .category label {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.gender .category label .dot{
+.gender .category label .dot {
     height: 18px;
     width: 18px;
     background: #d9d9d9;
@@ -165,29 +175,30 @@ form .gender{
     transition: all 0.3s ease;
 }
 
-.gender input{
+.gender input {
     display: none;
 }
 
-.reg_btn{
+.reg_btn {
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 15px 0;
 }
 
-#deletekeluhan input{
-    background: linear-gradient(to bottom right, #E00000, #E00000);
+#deletekeluhan input {
+    background: linear-gradient(to bottom right, #e00000, #e00000);
 }
 
-.reg_btn input{
+.reg_btn input,
+.input {
     height: 45px;
     width: 100%;
     border: none;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    background: linear-gradient(to bottom right, #318EFB, #1845BB);
+    background: linear-gradient(to bottom right, #318efb, #1845bb);
     border-radius: 5px;
     color: #ffffff;
     letter-spacing: 1px;

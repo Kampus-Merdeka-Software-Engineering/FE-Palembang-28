@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <!--icon and title-->
+    <title>HealthAppoint</title>
+    <link rel="icon" href="img/iconheatthappoint.png" type="image/x-icon">
+
+    <!--css link-->
+    <link rel="stylesheet" href="css/stylelihatdokter.css">
+
+</head>
+<body>
+    <header>
+        <a href="#beranda.html" class="logo"><img src="img/logowithtext.png" alt="" style="width: 60%;"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="beranda.html">Home</a></li>
+            <li><a href="rincipoliklinik.html">Poliklinik</a></li>
+            <li><a href="listjanji.html">JanjiMu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Cari dokter...">
+            <button class="search-button">Cari</button>
+        </div>
+
+        <div class="spesialis-section">
+            <div class="spesialis-buttons">
+                <!-- Tombol-tombol spesialis -->    
+                <a href="lihatpoliklinik.html?id=501">
+                    <button class="spesialis-button">Sp. Kandungan & Kebidanan</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=502">
+                    <button class="spesialis-button">Sp. Kulit & Kelamin</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=503">
+                    <button class="spesialis-button">Sp. THT</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=504">
+                    <button class="spesialis-button">Sp. Jiwa</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=505">
+                    <button class="spesialis-button">Sp. Penyakit Dalam</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=506">
+                    <button class="spesialis-button">Sp. Anak</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=507">
+                    <button class="spesialis-button">Sp. Mata</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=508">
+                    <button class="spesialis-button">Dokter Gigi</button>
+                </a>
+                <a href="lihatpoliklinik.html?id=509">
+                    <button class="spesialis-button">Dokter Umum</button>
+                </a>
+                <!-- Tambahkan lebih banyak tombol spesialis sesuai kebutuhan -->
+            </div>
+
+            <div class="spesialis-info">
+                <div class="spesialis-description">
+                    <!-- Deskripsi spesialis -->
+                    <div>
+                        <h1 id="nama_poliklinik">nama poliklinik</h1>
+                        <img id="gambar_poliklinik" src="xx" alt="">
+                        <p id="deskripsi_poliklinik">Deskripsi poliklinik</p>
+                    </div>
+                </div>
+
+                <div class="dokter-list">
+                    <!-- Kartu-kartu dokter -->
+                    <div class="dokter-card">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/script.js" defer></script>
+<script src="js/detailPoliklinik.js" defer></script>
+<script src="js/detailPoliklinikambilDokter.js" defer></script>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--icon and title-->
+        <title>HealthAppoint</title>
+        <link rel="icon" href="img/iconheatthappoint.png" type="image/x-icon" />
+
+        <!--css link-->
+        <link rel="stylesheet" href="css/styleform.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <p>Form Keluhan Pasien</p>
+            </div>
+
+            <form id="formAddKeluhan">
+                <div class="user_details">
+                    <div class="input_box">
+                        <label for="nama_keluhan">Nama Keluhan</label>
+                        <input type="text" id="nama_keluhan" name="nama_keluhan" placeholder="Nama Keluhan" required />
+                    </div>
+                    <div class="input_box">
+                        <label for="nama_dokter">Dokter</label>
+                        <select id="nama_dokter" name="nama_dokter">
+                            <option selected hidden>Pilih</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <label for="jenis_kelamin">Jenis Kelamin</label>
+                        <select id="jenis_kelamin" name="jenis_kelamin">
+                            <option selected hidden>Pilih</option>
+                            <option value="Perempuan">Perempuan</option>
+                            <option value="Laki-laki">Laki-Laki</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <label for="waktu_keluhan">Waktu</label>
+                        <select id="waktu_keluhan" name="waktu_keluhan">
+                            <option selected hidden>Pilih</option>
+                            <option value="10.00 AM">10.00 AM</option>
+                            <option value="12.00 AM">12.00 AM</option>
+                            <option value="14.00 AM">14.00 AM</option>
+                            <option value="16.00 AM">16.00 AM</option>
+                            <option value="18.00 AM">18.00 AM</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <label for="nama_pasien">Nama Lengkap</label>
+                        <input type="text" id="nama_pasien" name="nama_pasien" placeholder="Masukan Nama Kamu" required />
+                    </div>
+                    <div class="input_box">
+                        <label for="umur">Umur</label>
+                        <input type="text" id="umur" name="umur" placeholder="Masukan umur anda saat ini" required />
+                    </div>
+                    <div class="input_box">
+                        <label for="kartu_identitas">Kartu Identitas</label>
+                        <input type="text" id="kartu_identitas" name="kartu_identitas" placeholder="Masukan Nomor yang tertera pada Kartu Identitas anda" required />
+                    </div>
+                    <div class="input_box">
+                        <label for="deskripsi_keluhan">Keluhan</label>
+                        <input type="text" id="deskripsi_keluhan" name="deskripsi_keluhan" placeholder="Deskripsi keluhan" required />
+                    </div>
+                </div>
+                <div class="reg_btn">
+                    <button class="reg_btn input" type="submit">Kirim</button>
+                </div>
+            </form>
+        </div>
+        <script src="js/formKeluhan.js" defer></script>
+    </body>
+</html>
