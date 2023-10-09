@@ -10,12 +10,10 @@ document.getElementById("submit").addEventListener("click", function (event) {
   usernameError.textContent = "";
   passwordError.textContent = "";
 
-  // Simulated validation
   if (username !== "revou" || password !== "password") {
     passwordError.textContent = "Invalid username or password.";
     return;
   }
 
-  // Redirect to landing page (replace with actual landing page URL)
   window.location.href = "beranda.html";
 });

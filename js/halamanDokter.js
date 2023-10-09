@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search);
   const dokterId = params.get("id");
 
-  // Mengambil data dokter dari sumber eksternal menggunakan fetch
   fetch(`https://be-palembang-28.up.railway.app/dokter/${dokterId}`)
     .then((response) => response.json())
     .then((data) => tampilkanDetailDokter(data))

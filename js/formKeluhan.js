@@ -21,9 +21,7 @@ if (id) {
       return response.json();
     })
     .then((data) => {
-      // Check if the data is not null
       if (data !== null) {
-        // Pass the data to the HTML form
         document.querySelector("#nama_keluhan").value = data.nama_keluhan;
         document.querySelector("#nama_dokter").value = data.id_dokter;
         document.querySelector("#jenis_kelamin").value = data.jenis_kelamin;
@@ -37,16 +35,13 @@ if (id) {
     })
     .catch((error) => {
       console.error(error);
-      // // Show an error message to the user
-      // alert('Failed to fetch keluhan');
     });
 }
 
 const form = document.querySelector("#formAddKeluhan");
 form.addEventListener("submit", async (event) => {
-  event.preventDefault(); // To stop the form from submitting automatically (which would cause the page to refresh) and to let us handle the form submission ourselves instead (which lets us show a confirmation message to the user) we call preventDefault() on the event object. This tells the browser to not carry out the default action for the event, which in this case is to submit the form.
-
-  // Create a JavaScript object with the form field values
+  event.preventDefault();
+  
   const jsonData = {
     nama_keluhan: document.querySelector("#nama_keluhan").value.toString(),
     id_dokter: document.querySelector("#nama_dokter").value.toString(),

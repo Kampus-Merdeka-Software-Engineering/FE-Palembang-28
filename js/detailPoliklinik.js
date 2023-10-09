@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search);
   const poliklinikId = params.get("id");
 
-  // Mengambil data dokter dari sumber eksternal menggunakan fetch
   fetch(`https://be-palembang-28.up.railway.app/poliklinik/${poliklinikId}`)
     .then((response) => response.json())
     .then((data) => tampilkanDetailDokter(data))

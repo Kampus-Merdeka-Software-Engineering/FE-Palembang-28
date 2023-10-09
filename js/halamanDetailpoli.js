@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const daftarDokterElement = document.getElementById("daftarDokter");
-  const idPoli = 501; // Ganti dengan ID_Poli yang diinginkan
-
-  // Mengambil data dokter dari sumber eksternal menggunakan fetch
+  const idPoli = 501; 
+  
   fetch("https://be-palembang-28.up.railway.app/dokter")
     .then((response) => response.json())
     .then((data) => tampilkanDaftarDokter(data, idPoli))

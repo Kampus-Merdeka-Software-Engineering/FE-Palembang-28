@@ -15,10 +15,9 @@ const ambilKeluhan = async () => {
 
     // Membuat elemen gambar
     let imgElement = document.createElement("img");
-    imgElement.src = "img/nothing.jpg"; // Gantilah dengan alamat gambar yang benar
+    imgElement.src = "img/nothing.jpg"; 
     imgElement.classList.add("centered-image");
 
-    // Menambahkan elemen gambar ke dalam elemen div
     noDataElement.appendChild(imgElement);
 
     root.appendChild(noDataElement);

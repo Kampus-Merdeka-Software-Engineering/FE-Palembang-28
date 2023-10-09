@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search);
   const keluhanId = params.get("id");
 
-  // Mengambil data keluhan dari sumber eksternal menggunakan fetch
   fetch(`https://be-palembang-28.up.railway.app/keluhan/${keluhanId}`)
     .then((response) => response.json())
     .then((data) => tampilkanDetailKeluhan(data))
