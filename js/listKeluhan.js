@@ -3,7 +3,6 @@ const ambilKeluhan = async () => {
     "https://be-palembang-28.up.railway.app/keluhan"
   );
   const keluhan = await response.json();
-  console.log(keluhan);
 
   const h = "text/html";
   let parser = new DOMParser();

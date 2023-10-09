@@ -3,7 +3,6 @@ const ambilPoliklinik = async () => {
     "https://be-palembang-28.up.railway.app/poliklinik"
   );
   const poliklinik = await response.json();
-  console.log(poliklinik);
 
   const h = "text/html";
   let parser = new DOMParser();

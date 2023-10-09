@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function tampilkanDetailDokter(dokter) {
     if (dokter) {
-      console.log("Mauuu");
       const namaElement = document.getElementById("nama_dokter");
       const alumniElement = document.getElementById("alumni_dokter");
       const deskripsiElement = document.getElementById("deskripsi_dokter");

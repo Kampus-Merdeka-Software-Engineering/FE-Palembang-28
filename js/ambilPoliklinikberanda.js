@@ -1,9 +1,7 @@
 const ambilPoli = async() => {
     const response = await fetch("https://be-palembang-28.up.railway.app/poliklinik");
     const polikliniks = await response.json();
-    console.log(polikliniks);
-
-
+   
     const h = "text/html"
     let parser = new DOMParser();
 

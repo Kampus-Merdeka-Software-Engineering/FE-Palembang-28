@@ -4,7 +4,6 @@ const idPoli = parseInt(urlParams.get("id"));
 const ambilDok = async () => {
   const response = await fetch("https://be-palembang-28.up.railway.app/dokter");
   const dokters = await response.json();
-  console.log(dokters);
 
   const h = "text/html";
   let parser = new DOMParser();
