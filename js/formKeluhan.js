@@ -5,6 +5,7 @@ let urlDokter = `https://be-palembang-28.up.railway.app/dokter`;
 let methodAPI = "POST";
 
 optionDokter();
+console.log(id);
 
 if (id) {
   methodAPI = "PATCH";
@@ -59,16 +60,13 @@ form.addEventListener("submit", async (event) => {
     nama_pasien: document.querySelector("#nama_pasien").value.toString(),
   };
 
-  // console.log(jsonData);
-  // console.log(JSON.(jsonData));
-
   try {
     const response = await fetch(url, {
       method: methodAPI,
       headers: {
-        "Content-Type": "application/json", // Specify JSON content type
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(jsonData), // Convert the object to a JSON string
+      body: JSON.stringify(jsonData),
     });
 
     if (response.ok) {

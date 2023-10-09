@@ -18,10 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       namaElement.innerHTML = dokter.nama_dokter;
       deskripsiElement.innerHTML = dokter.deskripsi_dokter;
       alumniElement.innerHTML = dokter.alumni_dokter;
-      gambarElement.setAttribute(
-        "src",
-        `data:image/png;base64,${dokter.gambar_dokter}`
-      );
+      gambarElement.setAttribute("src",`data:image/png;base64,${dokter.gambar_dokter}`);
     } else {
       console.error("Dokter tidak ditemukan");
     }
